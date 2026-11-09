@@ -1,0 +1,14 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Local third-party sources, applications, environments and verification output.
+/tools/*
+!/tools/.gdignore
+!/tools/open-source.ps1
+!/tools/open-source.lock.json
+
+# SpriteKiln: renders and caches are regenerated; exported files live in the engine folder
+art/specs/**/out/
+art/specs/**/.kilncache/
+art/specs/**/*_ref/
